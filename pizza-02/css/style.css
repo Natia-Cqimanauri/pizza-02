@@ -1,0 +1,581 @@
+
+ 
+/*header style*/
+.header-bg{
+    max-width:2000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+.header-fixed{
+    display: flex;
+    width: 2000px;
+    height: 956px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+}
+/*.header-header{
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    
+    background-color: #CD5C5C;
+    
+        
+}*/
+.first-poto{
+    background-image: pizzaa;
+    width: 2000px;
+    height: 956px;
+    background-position: center;
+    
+   }
+   
+ 
+ 
+
+
+.navigation{
+        display: flex;}
+        
+.ul-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+   }
+  .nav-a-item{
+    color: white
+    ;
+
+  }
+  .active{
+    color:#CD5C5C
+
+  }
+  .burger-bar{
+    display: block;
+    font-size: 25px;
+   
+    top: 20px;
+    right: 20px;
+    color: black;
+  }
+  /*@media (max-width:480px){
+    .burger-bar{
+        display: block;
+        font-size: 35px;}
+    .navigation.navActive
+    {display: none;
+        display: block;
+}*/
+/*.header-fixed{
+    flex-direction: column;
+}*/
+    
+  
+
+.li-item-01 {
+    
+    font-size: 40px;
+     margin-right: 50px;
+}
+.li-item-02{
+    
+    font-size: 40px;
+    margin-right:50px;}
+
+.li-item-03 {
+   
+    font-size: 40px;
+    margin-right:50px;
+}
+.font-01{
+    font-size:250px;
+      font-family: 'Roboto';
+      width: 500px;
+      text-shadow: 0 0 3px white, 0 0 5px white;
+      text-transform: uppercase;
+      color: white;
+}
+
+.font-02{
+    font-size: 80px;
+    font-family:'Playfair 144pt';
+    color:white;
+    width: 500px;
+    margin-left: 200px;
+    text-shadow: 2px 2px 8px whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 2px 2px;
+}
+
+.PIZZA-peperoni{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.logo-images{
+    border-radius: 50px;
+}
+/*main style*/
+.big-block{
+    display: flex;
+    margin: 0 auto;
+    width: 2000px;
+    height: 700px;
+    
+    border-width: 5px;
+    border-style: inset;
+    border-color: black;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    background-color: rgba(71, 95, 69, 1);
+    ;
+    border-radius: 20px;
+}
+.block-01{
+    
+    flex-direction: column;
+    width: 615px;
+    height: 471px;
+    margin-top: 0;
+    border: 30px;
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
+}
+
+.block-02{
+    width: 615px;
+    margin-top:0;
+    height: 471px;
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
+}
+.block-03{
+    width: 615px;
+    height: 471px;
+    border-color: black;
+    border-width: 2px;
+    border-style: double;
+}
+.image-peperoni{
+    width: 100%;
+    height: 100%;
+}
+.image-peperoni-01{
+    width: 100%;
+    height: 100%;
+}
+.pizza-text{
+    margin: 0 auto;
+    align-items: center;
+    text-align: justify;
+    width: 500px;
+    height: 80px;
+    margin-top: 150px;
+    margin-left: 20px;
+   
+    
+}
+.pizza-text-01{ 
+    align-items: center;
+    text-align: justify;
+    width: 500px;
+    height: 80px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 180px;
+    
+   
+}
+.pizza-text-02{
+    align-items: center;
+    text-align: justify;
+    width: 500px;
+    height: 80px;
+    margin-top: 180px; 
+
+}
+.pizza-peperoni-bg{
+    display: flex;
+    margin: 0 auto;
+    width:2000px ;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1500px;
+    margin-left: 1200px;
+    
+    color: white;
+}
+.font-03{
+    font-size: 50px;
+    font-family: 'ALK Tall Nusxuri';
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.font-04{
+    font-size: 30px;
+    font-family: 'ALK Tall Nusxuri';
+    margin-top: 10px;
+    
+}
+.font-05{
+    font-size: 25px;
+    margin-left: 120px;
+    }
+    
+.font-06{
+    font-size: 30px;
+   
+    margin-left: 90px;
+}
+.font-07{
+    font-size: 50px;
+    font-family: 'ALK Tall Nusxuri';
+    margin-top: 5px;
+    margin-left: -70px;
+}
+.font-08{
+    font-size: 30px;
+    font-family: 'ALK Tall Nusxuri';
+    margin-top: 10px;
+    margin-left:-95px ;
+
+}
+.font-09{
+    font-size: 25px;
+}
+.font-10{
+    font-size: 30px;
+}
+.font-11{
+    font-size: 50px;
+    font-family: 'ALK Tall Nusxuri';
+    margin-top: 5px;
+    margin-left: -95px;
+}
+.font-12{
+    font-size: 30px;
+    font-family: 'ALK Tall Nusxuri';
+    margin-top: 10px;
+    margin-left:-95px ;}
+.font-13{
+    font-size: 25px;
+
+    }
+
+.font-14{
+    font-size: 30px;
+}
+.about-us{
+display: flex;
+margin: 0 auto;
+justify-content:space-between;
+align-items: center;
+width: 2000px;
+border-style: double;
+
+background-color:rgba(71, 95, 69, 1); 
+;
+
+}
+.aboute-image{
+    display: flex;
+    margin-left:0;
+    margin-right: 150px;
+   
+    
+}
+.kote-poto{
+    width: 500px;
+    height: 800px;
+    border-top-right-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+.aboute-text{
+    display: flex;
+    
+    text-align: center;
+    width: 700px;
+    height:450px;
+    margin-left: 160px;
+    margin-top: 80px;
+    font-size: 45px;
+    font-family: 'ALK Tall Nusxuri';
+   
+  
+    
+}
+.pont-text{
+   
+    width: 700px;
+    height:700px ;
+    border-radius: 20px;
+    border-color: black;
+    border-style: double;
+    background-color: white;
+    
+    transform: rotate(20deg);
+      
+}
+.aboute-image-02{
+    width:500px ;
+    height: 700px;
+    margin-left: 300px;
+
+    border-radius: 10px;
+}
+.pont-text-02{
+    width: 700px;
+    height:700px ;
+    font-size: 35px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: double;
+    background-color:white;
+    transform: rotate(-20deg);
+}
+.aboute-image-03{
+    width: 500px;
+    height: 500px;
+   
+    margin-left: 200px;
+}
+/*animation-style*/
+.animation-poto{
+    width: 200px;
+    height: 200px;
+    animation-name:pizzamove;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    
+}
+.animation-block{
+    width: 2000px;
+    height: 200px;
+    margin-left: 53px;
+    margin: 0 auto;
+   background-color:  rgba(71, 95, 69, 1);
+
+    position: relative;
+    }
+  
+@keyframes  pizzamove {
+    from {left: 0px;}
+    to {left: 1800px;}
+  } 
+ /*.animation-backgraund {
+    background-image: url(../image/received_9502751139742589.jpeg);
+    width: ;
+    height: ;
+ }*/
+/*budha style*/
+.bidha-image{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 50%;
+    background-color: rgba(71, 95, 69, 1); ;
+    
+}
+.conteiner-pizza{
+    width: 2000px;
+    height:1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    background-color: rgba(71, 95, 69, 1);
+    margin-top: 5px;
+}
+.mini-conteiner-pizza{
+    
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.text-decoration{
+    width: 1000px;
+    
+    
+    margin-left: 900px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top:-1200px;
+   
+}
+.text-decoration-01{
+    width: 500px;
+    height: 350px;
+    background-color:green;
+    
+}
+.text-decoration-02{
+    width: 500px;
+    height: 350px;
+    background-color:white;
+    
+    
+}
+.text-decoration-03{
+    width: 500px;
+    height: 600px;
+    background-color:red
+}
+.pizza-poto-01{
+    color: black;
+    font-size: 50px;
+   
+    margin-left: 30px;
+    text-shadow: 0 0 3px black;
+    text-indent: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: auto; 
+}
+.pizza-poto-02{
+    color: black;
+    font-size: 50px;
+   
+    margin-left: 30px;
+    text-shadow: 0 0 3pxblack;
+    text-decoration: underline;
+    text-decoration-thickness: auto; 
+}
+.pizza-poto-03{
+    color:black;
+    width: 500px;
+    font-size: 50px;
+  
+    margin-left: 30px;
+    text-shadow: 0 0 3px black;
+    text-decoration: underline;
+    text-decoration-thickness: auto; 
+}
+.poto-04{
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    text-shadow: 2px 2px black;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    
+}  
+.poto-05{
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    color: black;
+   text-shadow: 2px 2px 4px #000000;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+}
+.poto-06{
+    text-shadow: 2px 2px red;
+    font-size: 70px;
+    
+   
+}
+/*footer style*/
+.footer-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 2000px;
+    height: 600px;
+    background-color: rgba(55, 57, 63, 1);
+    margin: 0 auto;
+}
+
+    
+.left-footer{
+    width: 1000px;
+    height: 400px;
+    align-items: center;
+   
+    margin-left: -1px;
+    display: inline-block;
+    vertical-align: top;
+}
+.font-13{
+    font-size: 50px;
+    margin-top:-100px;
+    margin-bottom: 20px;
+}
+.font-14{
+    font-size:35px ;
+    color:black;
+    margin-bottom: 40px;
+}
+.font-15{
+    font-size: 35px;
+    color:black;
+    margin-bottom: 30px;
+}
+.font-16{
+    font-size: 35px;
+    color: black;
+    margin-bottom: 30px;
+}
+.right-footer{
+  
+   width: 1000px;
+   height: 400px;
+   margin-top: -60px;
+   margin-left: -100px;
+   align-items: center;
+   display: inline-block;
+   vertical-align: top;}
+.map{
+    width: 500;
+    height: 400;
+    margin-bottom:100px;
+}
+.facebook-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-bottom: 24px;
+}
+.instagram-icon{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+   
+}
+.google-icon{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 1px;
+}
+.icon-block{
+width: 400px;
+height: 100px;
+}
